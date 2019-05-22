@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings for Comic Sans Frontieres-->
+
+<settings>
+
+  <!-- general settings -->
+
+  <game name="Comic Sans Frontieres"/>
+
+  <!-- renderer settings -->
+
+  <renderer width="1024" height="768" shadermodel="5_0"/>
+
+  <!-- image file names -->
+
+  <images>
+    <image src="Images\stages\level0.png"/>
+    <image src="Images\stages\level1.png"/>
+    <image src="Images\stages\level2.png"/>
+  </images>
+  
+  <!-- sprites -->
+  
+  <sprites>
+    <sprite name="fredIdle" file="Images\player\fred\fredIdle" ext="png" frames="1"/>
+    <sprite name="fredAttack" file="Images\player\fred\fredAttack" ext="png" frames="1"/>
+    <sprite name="fredHurt" file="Images\player\fred\fredHurt" ext="png" frames="1"/>
+    <sprite name="fredLost" file="Images\player\fred\fredLost" ext="png" frames="1"/>
+    <sprite name="fredGood" file="Images\player\fred\fredVictoryScreenGood" ext="png" frames="1"/>
+    <sprite name="fredNeutral" file="Images\player\fred\fredVictoryScreenNeutral" ext="png" frames="1"/>
+    <sprite name="fredBad" file="Images\player\fred\fredVictoryScreenBad" ext="png" frames="1"/>
+    
+    <sprite name="swazIdle" file="Images\player\swaz\swazIdle" ext="png" frames="1"/>
+    <sprite name="swazAttack" file="Images\player\swaz\swazAttack" ext="png" frames="1"/>
+    <sprite name="swazHurt" file="Images\player\swaz\swazHurt" ext="png" frames="1"/>
+    <sprite name="swazLost" file="Images\player\swaz\swazLost" ext="png" frames="1"/>
+    <sprite name="swazGood" file="Images\player\swaz\swazVictoryScreenGood" ext="png" frames="1"/>
+    <sprite name="swazNeutral" file="Images\player\swaz\swazVictoryScreenNeutral" ext="png" frames="1"/>
+    <sprite name="swazBad" file="Images\player\swaz\swazVictoryScreenBad" ext="png" frames="1"/>
+
+    <sprite name="polkIdle" file="Images\player\polk\polkIdle" ext="png" frames="1"/>
+    <sprite name="polkAttack" file="Images\player\polk\polkAttack" ext="png" frames="1"/>
+    <sprite name="polkHurt" file="Images\player\polk\polkHurt" ext="png" frames="1"/>
+    <sprite name="polkLost" file="Images\player\polk\polkLost" ext="png" frames="1"/>
+    <sprite name="polkGood" file="Images\player\polk\polkVictoryScreenGood" ext="png" frames="1"/>
+    <sprite name="polkNeutral" file="Images\player\polk\polkVictoryScreenNeutral" ext="png" frames="1"/>
+    <sprite name="polkBad" file="Images\player\polk\polkVictoryScreenBad" ext="png" frames="1"/>
+
+    <sprite name="enemyEntry" file="Images\enemy\enemyEntry" ext="png" frames="1"/>
+    <sprite name="enemyExit" file="Images\enemy\enemyExit" ext="png" frames="1"/>
+    
+    <sprite name="enemy1Attack" file="Images\enemy\enemy1\enemy1Attack" ext="png" frames="1"/>
+    <sprite name="enemy1Hurt" file="Images\enemy\enemy1\enemy1Hurt" ext="png" frames="1"/>
+    <sprite name="enemy1IdleAfter" file="Images\enemy\enemy1\enemy1IdleAfter" ext="png" frames="1"/>
+    <sprite name="enemy1Idle" file="Images\enemy\enemy1\enemy1Idle" ext="png" frames="1"/>
+    <sprite name="projectileEnemy1" file="Images\enemy\enemy1\projectileEnemy1" ext="png" frames="1"/>
+    
+    <sprite name="enemyInvaderIdle" file="Images\enemy\invader\enemyInvaderIdle" ext="png" frames="1"/>
+    <sprite name="enemyInvaderAttack" file="Images\enemy\invader\enemyInvaderAttack" ext="png" frames="1"/>
+    <sprite name="enemyInvaderHurt" file="Images\enemy\invader\enemyInvaderHurt" ext="png" frames="1"/>
+    <sprite name="projectileInvader" file="Images\enemy\invader\projectileInvader" ext="png" frames="5"/>
+
+    <sprite name="enemyZoomerIdle" file="Images\enemy\zoomer\enemyZoomerIdle" ext="png" frames="1"/>
+    <sprite name="enemyZoomerBounce" file="Images\enemy\zoomer\enemyZoomerBounce" ext="png" frames="5"/>
+    <sprite name="enemyZoomerHurt" file="Images\enemy\zoomer\enemyZoomerHurt" ext="png" frames="1"/>
+    <sprite name="enemyZoomerIdleFlip" file="Images\enemy\zoomer\enemyZoomerIdleFlip" ext="png" frames="1"/>
+    <sprite name="enemyZoomerBounceFlip" file="Images\enemy\zoomer\enemyZoomerBounceFlip" ext="png" frames="5"/>
+
+    <sprite name="enemyThiefIdle" file="Images\enemy\thief\enemyThiefIdle" ext="png" frames="1"/>
+    <sprite name="enemyThiefAttack" file="Images\enemy\thief\enemyThiefAttack" ext="png" frames="1"/>
+    <sprite name="enemyThiefHurt" file="Images\enemy\thief\enemyThiefHurt" ext="png" frames="1"/>
+    <sprite name="projectileThief" file="Images\enemy\thief\projectileThief" ext="png" frames="1"/>
+    
+    <sprite name="ammoCount0" file="Images\interface\ammoCount0" ext="png" frames="1"/>
+    <sprite name="ammoCount1" file="Images\interface\ammoCount1" ext="png" frames="1"/>
+    <sprite name="ammoCount2" file="Images\interface\ammoCount2" ext="png" frames="1"/>
+    <sprite name="ammoCount3" file="Images\interface\ammoCount3" ext="png" frames="1"/>
+    <sprite name="ammoCount4" file="Images\interface\ammoCount4" ext="png" frames="1"/>
+    <sprite name="ammoCount5" file="Images\interface\ammoCount5" ext="png" frames="1"/>
+    <sprite name="ammoCountInf" file="Images\interface\ammoCountInf" ext="png" frames="1"/>
+    
+    <sprite name="projectileF" file="Images\player\fred\projectileF" ext="png" frames="1"/>
+    <sprite name="projectileS" file="Images\player\swaz\projectileS" ext="png" frames="1"/>
+    <sprite name="projectileP" file="Images\player\polk\projectileP" ext="png" frames="1"/>
+    <sprite name="projectileD" file="Images\player\fred\projectileD" ext="png" frames="1"/>
+    <sprite name="projectileZ" file="Images\player\swaz\projectileZ" ext="png" frames="1"/>
+    <sprite name="projectileK" file="Images\player\polk\projectileK" ext="png" frames="1"/>
+
+    
+    <sprite name="explosion" file="Images\player\explosion" ext="png" frames="7"/>
+    <sprite name="shield" file="Images\player\shield" ext="png" frames="1"/>
+    <sprite name="assistFred" file="Images\player\fred\assistFred" ext="png" frames="1"/>
+    <sprite name="assistSwaz" file="Images\player\swaz\assistSwaz" ext="png" frames="1"/>
+    <sprite name="assistPolk" file="Images\player\polk\assistPolk" ext="png" frames="1"/>
+
+    <sprite name="itemHealth" file="Images\item\itemHealth" ext="png" frames="1"/>
+    <sprite name="itemLetterD" file="Images\item\itemLetterD" ext="png" frames="1"/>
+    <sprite name="itemLetterE" file="Images\item\itemLetterE" ext="png" frames="1"/>
+    <sprite name="itemLetterR" file="Images\item\itemLetterR" ext="png" frames="1"/>
+
+    <sprite name="itemLetterW" file="Images\item\itemLetterW" ext="png" frames="1"/>
+    <sprite name="itemLetterA" file="Images\item\itemLetterA" ext="png" frames="1"/>
+    <sprite name="itemLetterZ" file="Images\item\itemLetterZ" ext="png" frames="1"/>
+
+    <sprite name="itemLetterO" file="Images\item\itemLetterO" ext="png" frames="1"/>
+    <sprite name="itemLetterL" file="Images\item\itemLetterL" ext="png" frames="1"/>
+    <sprite name="itemLetterK" file="Images\item\itemLetterK" ext="png" frames="1"/>
+    
+    <sprite name="keyF" file="Images\interface\keyF" ext="png" frames="1"/>
+    <sprite name="keyS" file="Images\interface\keyS" ext="png" frames="1"/>
+    <sprite name="keyP" file="Images\interface\keyP" ext="png" frames="1"/>
+    
+    <sprite name="letterEmptyD" file="Images\interface\letterEmptyD" ext="png" frames="1"/>
+    <sprite name="letterEmptyE" file="Images\interface\letterEmptyE" ext="png" frames="1"/>
+    <sprite name="letterEmptyR" file="Images\interface\letterEmptyR" ext="png" frames="1"/>
+    
+    <sprite name="letterNormalD" file="Images\interface\letterNormalD" ext="png" frames="1"/>
+    <sprite name="letterNormalE" file="Images\interface\letterNormalE" ext="png" frames="1"/>
+    <sprite name="letterNormalF" file="Images\interface\letterNormalF" ext="png" frames="1"/>
+    <sprite name="letterNormalR" file="Images\interface\letterNormalR" ext="png" frames="1"/>
+    
+    <sprite name="letterSpecialD" file="Images\interface\letterSpecialD" ext="png" frames="1"/>
+    <sprite name="letterSpecialE" file="Images\interface\letterSpecialE" ext="png" frames="1"/>
+    <sprite name="letterSpecialF" file="Images\interface\letterSpecialF" ext="png" frames="1"/>
+    <sprite name="letterSpecialR" file="Images\interface\letterSpecialR" ext="png" frames="1"/>
+
+    <sprite name="letterBigD" file="Images\interface\letterBigD" ext="png" frames="1"/>
+    <sprite name="letterBigE" file="Images\interface\letterBigE" ext="png" frames="1"/>
+    <sprite name="letterBigF" file="Images\interface\letterBigF" ext="png" frames="1"/>
+    <sprite name="letterBigR" file="Images\interface\letterBigR" ext="png" frames="1"/>
+
+    <sprite name="letterEmptyD" file="Images\interface\letterEmptyD" ext="png" frames="1"/>
+    <sprite name="letterEmptyE" file="Images\interface\letterEmptyE" ext="png" frames="1"/>
+    <sprite name="letterEmptyR" file="Images\interface\letterEmptyR" ext="png" frames="1"/>
+
+    <sprite name="letterNormalD" file="Images\interface\letterNormalD" ext="png" frames="1"/>
+    <sprite name="letterNormalE" file="Images\interface\letterNormalE" ext="png" frames="1"/>
+    <sprite name="letterNormalF" file="Images\interface\letterNormalF" ext="png" frames="1"/>
+    <sprite name="letterNormalR" file="Images\interface\letterNormalR" ext="png" frames="1"/>
+
+    <sprite name="letterSpecialD" file="Images\interface\letterSpecialD" ext="png" frames="1"/>
+    <sprite name="letterSpecialE" file="Images\interface\letterSpecialE" ext="png" frames="1"/>
+    <sprite name="letterSpecialF" file="Images\interface\letterSpecialF" ext="png" frames="1"/>
+    <sprite name="letterSpecialR" file="Images\interface\letterSpecialR" ext="png" frames="1"/>
+
+    <sprite name="letterBigD" file="Images\interface\letterBigD" ext="png" frames="1"/>
+    <sprite name="letterBigE" file="Images\interface\letterBigE" ext="png" frames="1"/>
+    <sprite name="letterBigF" file="Images\interface\letterBigF" ext="png" frames="1"/>
+    <sprite name="letterBigR" file="Images\interface\letterBigR" ext="png" frames="1"/>
+
+    <sprite name="letterEmptyW" file="Images\interface\letterEmptyW" ext="png" frames="1"/>
+    <sprite name="letterEmptyA" file="Images\interface\letterEmptyA" ext="png" frames="1"/>
+    <sprite name="letterEmptyZ" file="Images\interface\letterEmptyZ" ext="png" frames="1"/>
+
+    <sprite name="letterNormalS" file="Images\interface\letterNormalS" ext="png" frames="1"/>
+    <sprite name="letterNormalW" file="Images\interface\letterNormalW" ext="png" frames="1"/>
+    <sprite name="letterNormalA" file="Images\interface\letterNormalA" ext="png" frames="1"/>
+    <sprite name="letterNormalZ" file="Images\interface\letterNormalZ" ext="png" frames="1"/>
+
+    <sprite name="letterSpecialS" file="Images\interface\letterSpecialS" ext="png" frames="1"/>
+    <sprite name="letterSpecialW" file="Images\interface\letterSpecialW" ext="png" frames="1"/>
+    <sprite name="letterSpecialA" file="Images\interface\letterSpecialA" ext="png" frames="1"/>
+    <sprite name="letterSpecialZ" file="Images\interface\letterSpecialZ" ext="png" frames="1"/>
+
+    <sprite name="letterBigS" file="Images\interface\letterBigS" ext="png" frames="1"/>
+    <sprite name="letterBigW" file="Images\interface\letterBigW" ext="png" frames="1"/>
+    <sprite name="letterBigA" file="Images\interface\letterBigA" ext="png" frames="1"/>
+    <sprite name="letterBigZ" file="Images\interface\letterBigZ" ext="png" frames="1"/>
+
+    <sprite name="letterEmptyO" file="Images\interface\letterEmptyO" ext="png" frames="1"/>
+    <sprite name="letterEmptyL" file="Images\interface\letterEmptyL" ext="png" frames="1"/>
+    <sprite name="letterEmptyK" file="Images\interface\letterEmptyK" ext="png" frames="1"/>
+
+    <sprite name="letterNormalP" file="Images\interface\letterNormalP" ext="png" frames="1"/>
+    <sprite name="letterNormalO" file="Images\interface\letterNormalO" ext="png" frames="1"/>
+    <sprite name="letterNormalL" file="Images\interface\letterNormalL" ext="png" frames="1"/>
+    <sprite name="letterNormalK" file="Images\interface\letterNormalK" ext="png" frames="1"/>
+
+    <sprite name="letterSpecialP" file="Images\interface\letterSpecialP" ext="png" frames="1"/>
+    <sprite name="letterSpecialO" file="Images\interface\letterSpecialO" ext="png" frames="1"/>
+    <sprite name="letterSpecialL" file="Images\interface\letterSpecialL" ext="png" frames="1"/>
+    <sprite name="letterSpecialK" file="Images\interface\letterSpecialK" ext="png" frames="1"/>
+
+    <sprite name="letterBigP" file="Images\interface\letterBigP" ext="png" frames="1"/>
+    <sprite name="letterBigO" file="Images\interface\letterBigO" ext="png" frames="1"/>
+    <sprite name="letterBigL" file="Images\interface\letterBigL" ext="png" frames="1"/>
+    <sprite name="letterBigK" file="Images\interface\letterBigK" ext="png" frames="1"/>
+
+    <sprite name="lifeEmpty" file="Images\interface\lifeEmpty" ext="png" frames="1"/>
+    <sprite name="lifeFull" file="Images\interface\lifeFull" ext="png" frames="1"/>
+    <sprite name="lifeHalf" file="Images\interface\lifeHalf" ext="png" frames="1"/>
+    
+    <sprite name="fredLife" file="Images\interface\lifeIconFred" ext="png" frames="1"/>
+    <sprite name="swazLife" file="Images\interface\lifeIconSwaz" ext="png" frames="1"/>
+    <sprite name="polkLife" file="Images\interface\lifeIconPolk" ext="png" frames="1"/>
+    
+    <sprite name="UIBase" file="Images\interface\UIBase" ext="png" frames="1"/>
+    <sprite name="UIBase2a" file="Images\interface\UIBase2a" ext="png" frames="1"/>
+    <sprite name="UIBase2b" file="Images\interface\UIBase2b" ext="png" frames="1"/>
+    <sprite name="UIBase3" file="Images\interface\UIBase3" ext="png" frames="1"/>
+
+    <sprite name="rankS" file="Images\interface\rankS" ext="png" frames="1"/>
+    <sprite name="rankA" file="Images\interface\rankA" ext="png" frames="1"/>
+    <sprite name="rankB" file="Images\interface\rankB" ext="png" frames="1"/>
+    <sprite name="rankC" file="Images\interface\rankC" ext="png" frames="1"/>
+    <sprite name="rankD" file="Images\interface\rankD" ext="png" frames="1"/>
+
+    <sprite name="rankSsmall" file="Images\interface\rankSsmall" ext="png" frames="1"/>
+    <sprite name="rankAsmall" file="Images\interface\rankAsmall" ext="png" frames="1"/>
+    <sprite name="rankBsmall" file="Images\interface\rankBsmall" ext="png" frames="1"/>
+    <sprite name="rankCsmall" file="Images\interface\rankCsmall" ext="png" frames="1"/>
+    <sprite name="rankDsmall" file="Images\interface\rankDsmall" ext="png" frames="1"/>
+
+    <sprite name="maincursor" file="Images\interface\menuSelector" ext="png" frames="1"/>
+    <sprite name="charcursor" file="Images\interface\characterSelector" ext="png" frames="1"/>
+
+    <sprite name="screendark" file="Images\screens\screendark" ext="png" frames="1"/>
+    <sprite name="titlescreen" file="Images\screens\titlescreen" ext="png" frames="1"/>
+    <sprite name="gameover" file="Images\screens\gameover" ext="png" frames="1"/>
+    <sprite name="menuscreen" file="Images\screens\mainmenu" ext="png" frames="1"/>
+    <sprite name="charscreen" file="Images\screens\characterSelect" ext="png" frames="1"/>
+    <sprite name="credits" file="Images\screens\creditsScreen" ext="png" frames="1"/>
+    <sprite name="howtoplay" file="Images\screens\howtoplayScreen" ext="png" frames="1"/>
+    
+    <sprite name="menuStart" file="Images\interface\menuStart" ext="png" frames="1"/>
+    <sprite name="menuOptions" file="Images\interface\menuOptions" ext="png" frames="1"/>
+    <sprite name="menuHTP" file="Images\interface\menuHTP" ext="png" frames="1"/>
+    <sprite name="menuCredits" file="Images\interface\menuCredits" ext="png" frames="1"/>
+    <sprite name="stage0Title" file="Images\interface\stage0title" ext="png" frames="1"/>
+    <sprite name="stage1Title" file="Images\interface\stage1title" ext="png" frames="1"/>
+    <sprite name="stage2Title" file="Images\interface\stage2title" ext="png" frames="1"/>
+
+    <sprite name="endingFred" file="Images\screens\EndingFred" ext="png" frames="1"/>
+    <sprite name="endingSwaz" file="Images\screens\EndingSwaz" ext="png" frames="1"/>
+    <sprite name="endingPolk" file="Images\screens\EndingPolk" ext="png" frames="1"/>
+    <sprite name="screenend" file="Images\screens\screenend" ext="png" frames="1"/>
+    
+  </sprites>
+
+  <!-- objects-->
+
+  <objects>
+    <object name="enemy1Idle"
+      vulnerable="1"
+    />
+    
+    <object name="enemyEntry"
+      vulnerable="0"
+      lifetime="1250"
+    />
+    
+    <object name="enemyExit"
+      vulnerable="0"
+      lifetime="1000"
+    />
+
+    <object name="shield"
+      vulnerable="0"
+    />
+
+    <object name="assistFred"
+      vulnerable="0"
+    />
+
+    <object name="assistSwaz"
+      vulnerable="0"
+    />
+
+    <object name="assistPolk"
+      vulnerable="0"
+    />
+    
+    <object name="enemy1IdleAfter"
+      vulnerable="1"
+    />
+    
+    <object name="enemy1Hurt"
+      vulnerable="0"
+      lifetime="250"
+    />
+
+    <object name="enemyInvaderIdle"
+      vulnerable="1"
+    />
+
+    <object name="enemyInvaderAttack"
+      vulnerable="1" lifetime="750"
+    />
+    
+    <object name="enemyInvaderHurt"
+      vulnerable="0"
+      lifetime="250"
+    />
+
+    <object name="enemyZoomerIdle"
+      vulnerable="1"
+    />
+    <object name="enemyZoomerHurt"
+      vulnerable="0"
+      lifetime="250"
+    />
+
+    <object name="enemyZoomerBounce"
+      vulnerable="1"
+      frameinterval="100"
+      animation="0,1,2,3,4"
+	  />
+
+    <object name="enemyZoomerIdleFlip"
+      vulnerable="1"
+    />
+
+    <object name="enemyZoomerBounceFlip"
+      vulnerable="1"
+      frameinterval="100"
+      animation="0,1,2,3,4"
+	  />
+    
+    <object name="enemyThiefIdle"
+      vulnerable="1"
+    />
+    
+    <object name="enemyThiefAttack"
+      vulnerable="1"
+      lifetime="2300"
+    />
+    <object name="enemyThiefHurt"
+      vulnerable="1" lifetime="250"
+    />
+
+    <object name="projectileF" lifetime="500"/>
+    <object name="projectileP" lifetime="220"/>
+    <object name="projectileS" lifetime="2000"/>
+    <object name="projectileD" lifetime="2000"/>
+    <object name="projectileZ" lifetime="2000"/>
+    <object name="projectileK" lifetime="2000"/>
+    <object name="projectileEnemy1" vulnerable="1" lifetime="15000"/>
+    
+    <object name="projectileInvader"
+      frameinterval="200" vulnerable="1"
+      cycle="1" lifetime="15000"
+      animation="0,1,2,3,4"
+    />
+    <object name="projectileThief" vulnerable="1" lifetime="15000"/>
+    
+    <object name="explosion"
+      frameinterval="100"
+      animation="0,1,2,3,4,5,6"
+	  />
+    
+    <object name="fredIdle"/>
+    <object name="fredAttack"
+      lifetime="500"
+    />
+    <object name="fredHurt"
+      lifetime="1000" invulnerabletime="1000"
+    />
+    <object name="fredLost"
+      vulnerable="0"
+    />
+
+    <object name="swazIdle"/>
+<object name="swazAttack"
+      lifetime="500"
+    />
+    <object name="swazHurt"
+      lifetime="1000" invulnerabletime="1000"
+    />
+    <object name="swazLost"
+      vulnerable="0"
+    />
+    
+    <object name="polkIdle"/>
+    <object name="polkAttack"
+      lifetime="500"
+    />
+    <object name="polkHurt"
+      lifetime="1000" invulnerabletime="1000"
+    />
+    <object name="polkLost"
+      vulnerable="0"
+    />
+    <object name="lifeFull"/>
+    <object name="lifeHalf"/>
+    <object name="lifeEmpty"/>
+    
+    <object name="itemHealth" vulnerable="1"/>
+    <object name="itemLetterR" vulnerable="1"/>
+    <object name="itemLetterE" vulnerable="1"/>
+    <object name="itemLetterD" vulnerable="1"/>
+
+    <object name="itemLetterW" vulnerable="1"/>
+    <object name="itemLetterA" vulnerable="1"/>
+    <object name="itemLetterZ" vulnerable="1"/>
+
+    <object name="itemLetterO" vulnerable="1"/>
+    <object name="itemLetterL" vulnerable="1"/>
+    <object name="itemLetterK" vulnerable="1"/>
+  </objects>
+
+  <!-- sounds-->
+
+  <sounds>
+    <sound file="Sounds\Gamestart.wav"/>
+    <sound file="Sounds\Gameover.wav"/>
+    <sound file="Sounds\Unleashtheuniverse.wav"/>
+    <sound file="Sounds\Menuselect.wav" instances="4"/>
+    <sound file="Sounds\Hubbub.wav"/>
+    <sound file="Sounds\Mooseheadhonk.wav"/>
+    <sound file="Sounds\Steppinout.wav"/>
+    <sound file="Sounds\Organdonor.wav"/>
+    <sound file="Sounds\Shoot.wav" instances="4"/>
+    <sound file="Sounds\Explosion.wav" instances="4"/>
+    <sound file="Sounds\Playerhit.wav"/>
+    <sound file="Sounds\Shieldhit.wav" instances="4"/>
+    <sound file="Sounds\Getitem.wav" instances="4"/>
+    <sound file="Sounds\Movecursor.wav" instances="4"/>
+    <sound file="Sounds\Specialattackready.wav"/>
+    <sound file="Sounds\Ending.wav"/>
+  </sounds>
+  
+  <!-- debugger settings -->
+
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>
